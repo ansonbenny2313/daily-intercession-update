@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Intercession</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="container">
+        <header class="card header">
+            <h1>Daily Intercession</h1>
+        </header>
+
+        <section class="card remaining-count-section">
+            <h2>REMAINING COUNT</h2>
+            <div class="count-grid">
+                <div class="count-item">
+                    <span id="remaining-hail-mary">100</span>
+                    <p>Hail Mary</p>
+                </div>
+                <div class="count-item">
+                    <span id="remaining-our-father">100</span>
+                    <p>Our Father</p>
+                </div>
+                <div class="count-item">
+                    <span id="remaining-glory-be">100</span>
+                    <p>Glory be</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card update-section">
+            <h2>WHAT INTERCESSION DID YOU DO TODAY</h2>
+            <div class="input-grid">
+                <div class="input-row">
+                    <label for="update-hail-mary">Hail Mary</label>
+                    <input type="number" id="update-hail-mary" value="0" min="0">
+                </div>
+                <div class="input-row">
+                    <label for="update-our-father">Our Father</label>
+                    <input type="number" id="update-our-father" value="0" min="0">
+                </div>
+                <div class="input-row">
+                    <label for="update-glory-be">Glory be</label>
+                    <input type="number" id="update-glory-be" value="0" min="0">
+                </div>
+                <button id="submit-button" class="submit-btn">submit</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
